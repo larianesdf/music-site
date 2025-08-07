@@ -4,8 +4,9 @@ header{
 
 
 .navbar {
-
+     width:100%;
     font-size: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
