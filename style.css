@@ -4,5 +4,8 @@ header{
 
 
 .navbar {
+
     font-size: 50px;
+    display: flex;
+    align-items: center;
 }
