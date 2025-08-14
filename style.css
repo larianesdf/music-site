@@ -9,6 +9,11 @@ header{
     padding: 20px 8% ;
 }
 
+#logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 
 .navbar {
      width:100%;
