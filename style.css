@@ -29,3 +29,12 @@ header{
     gap: 80px;
     text-transform: uppercase;
 }
+
+.nav_item{
+    font-size: 25px;
+    color: purple;
+}
+
+.nav_item:hover {
+    background-color: rgb(255, 0, 212);
+}
