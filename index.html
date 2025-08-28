@@ -16,6 +16,12 @@
         <nav class="navebar">
 
             <i class="fa-solid fa-moon" id="logo"> lariane</i>
+<button class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span> </span>
+</button>
+
             <ul class="nav_lista">
 
                 <li class="nav_item">sertanejo</li>
@@ -33,12 +39,29 @@
     <main class="conteudo">
     <section class="home">
         <h1 class="titulo">
-      musicas e sentimetos                                                                                                                 
+      playlist de<span class="titulocor"musicas e sentimetos</span>                                                                                                              
         </h1>
     </section>
 
-
-    </main>
+    </main><script>
+        // JavaScript para controlar o menu hambúrguer
+        const menuToggle = document.getElementById('menuToggle');
+        const navLista = document.getElementById('navLista');
+        
+        menuToggle.addEventListener('click', function() {
+            navLista.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+        
+        // Fechar menu ao clicar em um item
+        const navItems = document.querySelectorAll('.nav_item');
+        navItems.forEach(item => {
+            item.addEventListener('click', function() {
+                navLista.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+    </script>
 
 
 </body>
