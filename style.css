@@ -8,7 +8,7 @@ header{
     width: 100%;
     padding: 20px 8% ;
     position:fixed;
-    top:0
+    top:0;
     left:0;
     z-index: 1000;
 
@@ -37,7 +37,7 @@ header{
 .nav_item{
     font-size: 25px;
     color: purple;
-    cursor: 
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -128,7 +128,8 @@ section{
     
     .menu-toggle.active span:nth-child(2) {
         opacity: 0;
-    }
+    }queries.css
+
     
     .menu-toggle.active span:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
@@ -153,7 +154,6 @@ section{
 
 
 
-==================================================================88888888888888888888888888888=========================================
 
 /* Media queries para o título */
 @media (max-width: 768px) {
