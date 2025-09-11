@@ -4,31 +4,30 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     width: 100%;
-    padding: 20px 8% ;
-    position:fixed;
-    top:0;
-    left:0;
+    padding: 20px 8%;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1000;
-
 }
 
-#logo{
+#logo {
     font-size: 1.5rem;
-    color:  white;
+    color: white;
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-
 .navbar {
-     width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav_lista {
@@ -38,39 +37,43 @@ header{
     text-transform: uppercase;
 }
 
-.nav_item{
+.nav_item {
     font-size: 25px;
-    color: purple;
+    color: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+ .nav_item:hover {
+    background-color:rgb(191, 4, 191) ;
+    color: rgb(155, 153, 153);
+    text-decoration: underline;
+ }
 
-.nav_item:hover {
-    background-color: rgb(255, 0, 212);
-}
-
-.home {
+ .home {
     display: flex;
     min-height: calc(100vh - 91px);
     margin-top: 91px;
-}
+ }
 
-section{
+ section {
     width: 100%;
     padding: 20px 8%;
     display: flex;
-}
+    justify-content: center;
+ }
 
- .titulo{
+ .titulo {
     font-size: 4rem;
-    color:black;
-    text-align:center;
+    color: #1d1d1d;
+    text-align: center;
     width: 100%;
  }
-  .titulocor {
-    color:blueviolet;
-  }
-/* Menu hambúrguer para mobile */
+
+ .titulocor {
+    color: blueviolet;
+ }
+
+ /* Menu hambúrguer para mobile */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -134,13 +137,13 @@ section{
     
     .menu-toggle.active span:nth-child(2) {
         opacity: 0;
-    }queries.css
-
+    }
     
     .menu-toggle.active span:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+
 
 @media (max-width: 480px) {
     header {
@@ -155,10 +158,6 @@ section{
         font-size: 18px;
     }
 }
-
-
-
-
 
 
 /* Media queries para o título */
