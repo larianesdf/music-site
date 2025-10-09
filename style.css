@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+;:root {
+    --cor-primaria-1:#231942;
+    --cor-primaria-2:#5E548E;
+    --cor-primaria-3:#9F86C0;
+    --cor-primaria-4:#BE95C4;
+    --cor-primaria-5:#E0B1CB;
+
+    --cor-secundaria-1:#ffffff;
+    --cor-secundaria-2:#1d1d1d;
+
+
+}
 
 
 * {
