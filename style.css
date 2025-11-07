@@ -22,6 +22,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     width: 100%;
     padding: 20px 8%;
@@ -34,7 +38,7 @@ header {
 
 #logo {
     font-size: 1.5rem;
-    color: var(--cor-secundaria-1);
+    color: var(--cor-primaria-5)
     font-weight: 600;
     display: flex;
     align-items: center;
